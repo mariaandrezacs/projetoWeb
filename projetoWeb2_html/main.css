@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background-image: url(imgs/background-img-main-tela.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.flex-container{
+display: flex;
+justify-content:center;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #36E270;
+    opacity: 0.9;
+    border-radius: 0px 0px 132px 132px;
+    text-align: center;
+}
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+}
